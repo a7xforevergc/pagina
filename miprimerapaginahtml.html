@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<script src = "prefixfree.js"></script>
+	<title>Musica y mas...</title>
+</head>
+<body background="fondo2.jpg">
+	<header>
+		<img src="logo.png" title="logo">
+		<h1>STRANGE MUSIC</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Inicio</a></li>
+			<li><a href="acerca.html#">Acerca</a></li>
+			<li><a href="blog.html#">Blog</a></li>
+			<li><a href="multimedia.html#">Multimedia</a></li>
+			<li><a href="redessociales.html#">Redes Sociales</a>
+			<ul>
+				<li>Facebook</li>
+				<li>Twitter</li>
+			</ul>
+			
+		</ul>
+	</nav>
+	<div id="contenido">
+		<h2>Bienvenidos a esta pagina de musica</h2>
+			<hr>
+			<p>Disfruta la visita, esta es una pagina para escuchar tus canciones favoritas, desde musica clasica al rock, indie, pop, metal, etc.</p>
+			<hr>
+			
+			<section>
+				<fieldset>
+					<legend>Contacto</legend>
+					<form method="post" action="gardar.php">
+						<label>Nombre: &nbsp </label>
+						<input type= "text" name="nombre" required placeholder="Nombre">
+						<br>
+						<br>
+						<label>Correo   </label>
+						<input type= "email" name="correo" required placeholder="tucorreo@gmail">
+						<br>
+						<br>
+						<label>Comentario &nbsp </label>
+						<textarea></textarea>
+						<br>
+						<br>
+						
+						<input id="enviar" type="submit" value="enviar">
+						<input id="cancelar" type="reset" value="cancelar">
+					</form>
+				</fieldset>
+			</section>
+			<section id="sitio">
+				<article class="sitios">
+					<h2>Aprender las nuevas tendencias en musica en el mundo</h2>
+					<img src = "b4.png">
+				</article>
+				<article class="sitios">
+					<h2>Escucha tus canciones favoritas de todos los tiempos</h2>
+					<img src = "b1.jpg">
+				</article>
+				<article class="sitios">
+					<h2>Colores  WEB Encuentra tu color y eligelo para mostrar</h2>
+					<fieldset>
+						<form>
+							<label>Selecciona tu color</label>
+							<input type="color">
+							<input type="submit" value="Buscar color">
+						</form>
+					</fieldset>					
+				</article>
+			</section>
+	</div>
+	<footer>
+		<p>Todos los derechos JD</p>
+	</footer>
+</body>
+</html>

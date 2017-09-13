@@ -1,0 +1,403 @@
+header{
+		width:85%;
+		height: 200px;
+		border: 10px double #B0BEC5;
+		border-radius:15px;
+		background: #212121;
+		margin: 20px auto 0px;
+		
+		} 
+		
+header img{
+		display: inline-block;
+		width:150px;
+		height: 150px;
+		margin-top: 25px;
+		margin-left: 50px;
+		position: absolute;
+	
+	}
+	
+	header h1{
+			display: inline-block;
+			margin-left: 500px;
+			margin-top: 70px;
+			height: 40px;
+			position: absolute;
+			color: #FFFFFF;
+			font-family: 'Permanent Marker', cursive;
+			
+			transition-property: color , text-shadow;
+			transition-duration: 1s, 1.5s;
+			
+			
+			-webkit-transition:color 1s;
+			-moz-transition:color 1s;
+			
+			
+			} 
+			
+		
+		nav{
+		width: 100%;
+		height: 30px;
+		margin-left: 10px auto 0px;
+		padding: 0px;
+		text-align:center;
+		}
+		
+		nav ul{
+		list-style: none;
+		padding: 0px;
+		margin: 0px 0px 0px 0px;
+				
+		}
+		
+		nav ul > li{
+		display: inline-block;
+		width: 160px;
+		height: 25px;
+		border: 1px solid #BDBDBD; 
+		text-align: center;
+		padding-top:5px;
+		background:#BDBDBD;
+		font-size: 1em;
+		font-family: 'Lora', serif;
+		font-family: 'Permanent Marker', cursive;
+		color:#1A237E;
+		text-shadow:2px 4px 4px #FFFFFF;
+		transition-property: background, color;
+		transition-duration: 2s, 2s:
+		}
+		
+		nav ul > li:hover{
+		
+			background:#FFFFFF;
+			letter-spacing: 2px;
+			}
+			
+		nav> ul > li a{
+		text-decoration: none;
+		color: #212121;
+		}
+		
+		nav ul li ul{
+		position: absolute;
+		display: none;
+		}
+		
+		nav ul li ul li{
+		display: block;
+		}
+		
+		nav ul li:hover ul{
+		display: block;
+		margin-top:4px;
+		background: #E8EAF6;
+		}
+		
+		
+		
+		#contenido{
+	width:75%;
+	height:auto;
+	margin:0px auto 0px;
+	}
+	
+	#contenido img{
+		display: inline-block;
+		width:150px;
+		height: 150px;
+		margin-top: 25px;
+		margin-left: 50px;
+		position: absolute;
+	}
+#contenido h2{
+	color:#01579B;
+	font-size: 2em;
+	font-family: 'Lora', serif;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	text-shadow: 2px 4px 4px #E8EAF6;
+	}
+	
+#contenido p{
+	width: 220;
+	height: auto;
+	font-size: 1em;
+	font-family:'Abel', sans-serif;
+	text-align:justify;
+	font-weight:bold;
+	color:#FFFFFF;
+	background: #607D8B;
+	}
+hr{
+	width: 900px;
+	height: 10px;
+	background: #212121;
+	border-radius: 5px   ; 
+	}
+	
+section{
+	width: 960px;
+	height: auto;
+	background: #607D8B;
+	margin-top: 5px;
+	color:#000000;
+	}
+	
+	
+	fieldset{
+	margin: 10px auto 10px;
+	height: auto;
+	width: 400px;
+	border: 4px auto 10px;
+	border-radius: 5px;
+	}
+	
+	legend{
+		font-size: 0.8em;
+		color: #303F9F;
+		font-family: 'Abel', sans-serif;
+		margin-left: 100px;
+		}
+		
+		form label{
+			font-size: 1.2em;
+			font-family: 'Abel', sans-serif;
+			color: #000000;
+			padding-right: 2px;
+			}
+			
+		form input{
+			width: 200px;
+			height: 30px;
+			padding-left: 10px;
+			font-family: 'Abel', sans-serif;
+			font-size: 1em;
+			font-weight: bold;
+			color: #303F9F;
+			border-radius: 4px;
+			border: 2px solid #303F9F;
+			}
+			
+		form textarea{
+			width:370px;
+			height: 150px;
+			margin-left: 20px;
+			font-family: 'Abel', sans-serif;
+			font-size: 1em;
+			font-weight: bold;
+			color: #303F9F;
+			border-radius: 4px;
+			border: 2px solid #303F9F;
+			}
+			
+			
+		#enviar{
+			height: 25px;
+			width: 100px;
+			background: #4CAF50;
+			font-size: 1em;
+			font-weight: bold;
+			color: #fff;
+			border-radius: 4px;
+			border: none;
+			box-shadow: -1px 5px 3px 0px #004d40;
+			}
+			
+			
+		#cancelar {
+			height: 25px;
+			width: 100px;
+			background: #C51162;
+			font-size: 1em;
+			font-weight: bold;
+			color: #fff;
+			border-radius: 4px;
+			border: none;
+			box-shadow: -1px 5px 3px 0px #0d4d40;
+			}
+			
+		#sitio{
+			background: #ECEFF1;
+			}
+			
+		.sitios{
+			display: inline-block;
+			width: 240px;
+			height: 500px;
+			margin-left: 20px;
+			margin-right: 10px;
+			}
+			
+			
+			.sitios img{
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				margin-left: 50px;
+				}
+				
+			.sitios img:hover{
+				width: 170px;
+				height: 170px;
+				position: absolute;
+				margin-left: 70px;
+				}
+				
+			.sitios p{
+				font-family: arial;
+				font-size: 13px;
+				font-weight: none;
+				width: 230px;
+				height: 350px;
+				margin-left: 10px;
+				position: absolute;
+				background:#263238;
+				}
+				
+				
+			.sitios fieldset{
+			margin: 10px auto 10px;
+			height: auto;
+			width: 180px;
+			border: 4px double #303F9F;
+			border-radius: 5px;
+			position: absolute;
+			}
+			
+			#entradas{
+				background: #fff:
+				}
+				
+				article{
+					margin: 5px auto 5px;
+					height: auto;
+					width: 80%;
+					border: 4px double #303F9F;
+					border-radius: 4px;
+					text-align: justify;
+					padding-left: 10px;
+					padding-right: 5px;
+					}
+					
+				#redes{
+				
+					margin: 10px auto 10px;
+					height: auto;
+					width: 95%;
+					border-radius: 4px;
+					}
+					
+				#redes ul li{
+					display: inline-block;
+					width: 40%;
+					height: auto;
+					padding-top: 5px;
+					padding-left: 20px;
+					background: #E8EAF6;
+					text-shadow: 2px 4px 4px #E8EAF6;
+					}
+					
+				#biografia{
+					margin: 10px auto 10px;
+					height: auto;
+					width: 800px;
+					border: 4px double #303F9F;
+					box-shadow: 2px 5px 3px #000;
+					padding-left: 10px;
+					}
+					
+				#twitter{
+					margin: 10px auto 10px;
+					height: auto;
+					width: 600px;
+					}
+					
+				#mult{
+					margin: 10px auto 10px;
+					width: 850px;
+					height: auto;
+					display: block;
+					}
+					
+				footer{
+					width: 85%;
+					height: 50px;
+					color: #fff;
+					padding-top: 5px;
+					background: #000;
+					margin: 0px auto 5px;
+					text-align: center;
+					font-size: 1em;
+					}
+					
+				.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 50px 50px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 100px 300px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}	
+			@media screen and(max-width: 980px){
+				*{
+					margin: 0px;
+					}
+					
+					header, nav, #contenido, footer, hr,h1{
+					width: 100%;
+					}
+				}
+			
+			
+			@media screen and (max-width: 630px){
+				nav{
+					height: auto;
+					}
+					header, nav, #contenido, footer, hr,h1{
+					width: 100%;
+					}
+				nav ul li{	
+					width: 100%;
+					display: block;
+					border-bottom: 1.5px solid #000;
+					}
+				}
+				
+				
+				@media screen and(max-width: 860px){
+					header h1{
+						font-size: 3em;
+						margin-left: 100px;
+						}
+						header, nav, #contenido, footer, hr,h1{
+					width: 100%;
+					}
+					}
+				
